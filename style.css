@@ -1,5 +1,7 @@
 body {
     margin: 0px;
+    margin-top: 90px;
+    margin-bottom: 10%;
 }
 
 .carousel-indicators li {
@@ -18,16 +20,86 @@ body {
     margin-top: 10px;
 }
 
-.navbar li a, .navbar .navbar-brand {
-  color: #fff !important;
+.navbar {
+  background-color: #A70032;
 }
 
-.navbar-nav li a:hover, .navbar-nav li.active a {
-  color: #f4511e !important;
-  background-color: #fff !important;
+/* .navbar-header {
+  height: 75px;
+} */
+
+.navbar-toggle {
+  border: #ffffff solid 2px !important;
 }
 
-.navbar-default .navbar-toggle {
-  border-color: transparent;
-  color: #fff !important;
+.icon-bar {
+  background-color: #ffffff !important;
+}
+
+.navbar-collapse {
+  background-color: #A70032;
+  color: #E5B3C2 !important;
+  border: unset;
+}
+
+.navbar-nav a {
+  color: #E5B3C2 !important;
+}
+
+.navbar-brand img {
+  height: 100%;
+}
+
+h1, h2, h3{
+  color: #A70032;
+}
+
+p {
+  font-size: medium;
+}
+
+.banner {
+  color: #ffffff !important;
+  background-color: #A70032;
+  margin: 7% 0px;
+  padding: 3%;
+}
+
+.banner h1 {
+  color: #ffffff;
+}
+
+.banner p {
+  font-size: xx-large;
+}
+
+.grid-image img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #1FA5BB;
+  border: unset;
+  border-radius: 5px;
+  margin: 25px;
+  padding: 10px 15px;
+  color: #ffffff;
+  font-size: medium;
+}
+
+.quote {
+  color: grey;
+}
+
+.narrow {
+  width: 70%;
+}
+
+.small {
+  font-size: medium !important;
+}
+
+.link {
+  color: #A70032;
 }
