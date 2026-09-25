@@ -24,9 +24,9 @@ body {
   background-color: #A70032;
 }
 
-/* .navbar-header {
+.navbar-header {
   height: 75px;
-} */
+}
 
 .navbar-toggle {
   border: #ffffff solid 2px !important;
