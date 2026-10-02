@@ -79,13 +79,7 @@ p {
 }
 
 button {
-  background-color: #1FA5BB;
-  border: unset;
-  border-radius: 5px;
   margin: 25px;
-  padding: 10px 15px;
-  color: #ffffff;
-  font-size: medium;
 }
 
 .quote {
@@ -102,4 +96,22 @@ button {
 
 .link {
   color: #A70032;
+}
+
+.modal-red {
+  color: #A70032 !important;
+}
+
+.btn-close-red {
+  background-color: #A70032;
+  color: #ffffff;
+}
+
+.modal-white {
+  color: #000000 !important;
+}
+
+.btn-close-white {
+  background-color: white;
+  color: #000000;
 }
